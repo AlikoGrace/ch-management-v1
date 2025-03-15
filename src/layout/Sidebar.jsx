@@ -11,7 +11,7 @@ const Sidebar = () => {
   return (
     <nav
       className={`flex flex-col md:block  h-full text-light-gray bg-primary font-semibold border border-l-2 border-Primary-light ${
-        isCollapsed ? "w-16" : "w-[180px]"
+        isCollapsed ? "w-20 items-center" : "w-[180px]"
       }`}>
       <div>
         <button
