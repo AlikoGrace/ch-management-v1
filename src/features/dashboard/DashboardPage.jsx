@@ -6,13 +6,21 @@ const DashboardPage = () => {
       <header className="rounded-sm p-4  text-Primary my-2">
         <h1 className="text-xl font-bold">Dashboard</h1>
       </header>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         <div className="flex flex-col gap-2 justify-between text-lg items-center p-4 rounded shadow-md border px-4 border-Primary-light">
-          <h3 className="flex gap-2 items-center ">Total Members</h3>
+          <div className="flex gap-2">
+            <svg className="w-5 h-5 fill-Primary-semi-light">
+              <use href="/sprite.svg#icon-users"></use>
+            </svg>
+            <h3 className="flex gap-2 items-center ">Total Branches</h3>
+          </div>
+
           <div className="flex gap-4 items-center">
-            <span className="text-xl">1583</span>
+            <span className="text-xl">150</span>
             <div className="border-l-2 px-4 border-Primary-light">
-              <p className="flex gap-2 items-center">Male: 534</p>
+              <p className="flex gap-2  border-b-2   border-Primary-light items-center">
+                Male: 534
+              </p>
               <p className="flex gap-2 items-center">Female: 647</p>
             </div>
           </div>
@@ -22,7 +30,9 @@ const DashboardPage = () => {
           <div className="flex gap-4 items-center">
             <span className="text-xl">1583</span>
             <div className="border-l-2 px-4 border-Primary-light">
-              <p className="flex gap-2 items-center">Male: 534</p>
+              <p className="flex gap-2   border-b-2   border-Primary-light px-2items-center">
+                Male: 534
+              </p>
               <p className="flex gap-2 items-center">Female: 647</p>
             </div>
           </div>

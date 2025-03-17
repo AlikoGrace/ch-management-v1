@@ -32,7 +32,7 @@ const Sidebar = () => {
             <svg className="w-4 h-4  fill-light-gray">
               <use href="/sprite.svg#icon-home3"></use>
             </svg>
-            {!isCollapsed && <NavLink to="/dashboard">Home</NavLink>}
+            {!isCollapsed && <NavLink to="/">Home</NavLink>}
           </li>
           <li className="flex items-center gap-2 px-4 py-5 hover:bg-custom-brown hover:text-Primary">
             <svg className="w-5 h-5 fill-light-gray">
