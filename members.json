@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "role": "MC Head"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "role": "Assistant Pastor"
+  },
+  {
+    "id": 3,
+    "name": "Alidce Johnson",
+    "email": "alice@example.com",
+    "role": "Leader"
+  },
+  {
+    "id": 4,
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "role": "Leader"
+  },
+  {
+    "id": 5,
+    "name": "Alicre Johnson",
+    "email": "alice@example.com",
+    "role": "Leader"
+  }
+]

@@ -1,9 +1,10 @@
 import React from "react";
+import Annoucement from "../annoucements/Announcement";
 
 const DashboardPage = () => {
   return (
     <section className="w-full text-Primary-semi-light font-semibold">
-      <header className="rounded-sm p-4  text-Primary my-2">
+      <header className="rounded-sm px-4 py-3 text-Primary my-2">
         <h1 className="text-xl font-bold">Dashboard</h1>
       </header>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -65,6 +66,7 @@ const DashboardPage = () => {
           </div>
         </div>
       </div>
+      <Annoucement />
     </section>
   );
 };
